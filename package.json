@@ -1,0 +1,36 @@
+{
+  "name": "backend-postgres",
+  "version": "1.0.0",
+  "description": "Node.js REST APIS with Express, Sequelize & PostgreSQL ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jharyono/backend-postgres.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "sequelize",
+    "postgresql"
+  ],
+  "author": "Joni Haryono",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jharyono/backend-postgres/issues"
+  },
+  "homepage": "https://github.com/jharyono/backend-postgres#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.2.4"
+  }
+}
